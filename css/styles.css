@@ -1,0 +1,90 @@
+*b{
+box-sizing: border-box;
+}
+body {
+  background: linear-gradient(90deg, #311d3f, #6e2b4b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+  background-color: aliceblue;
+  width: 17em;
+  height: 29em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5em;
+  margin-top: 0;
+}
+#form {
+  color: #333;
+  font-size: .9em;
+  font-weight: 500;
+}
+input {
+  margin: .5em auto 1em auto;
+  border: none;
+  border-bottom: 1px solid #555;
+  width: 95%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background: none;
+}
+h4 {
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+#forgot {
+  text-align: right;
+  margin-top: 0;
+  font-size: .85em;
+  margin-bottom: 1em;
+  color: #333;
+  font-weight: 500;
+  padding-right: .5em;
+}
+a {
+  text-decoration: none;
+}
+button {
+  margin: 1em auto 3em auto;
+  width: 20em;
+  height: 2.5em;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(90deg, #311d3f, #6e2b4b );
+  color: aliceblue;
+}
+button:hover {
+  cursor: pointer;
+  background: #311d3f;
+  font-weight: 800;
+}
+#or {
+  text-align: center;
+  color: #333;
+  font-size: .9em;
+}
+#password {
+  margin-bottom: .7em;
+}
+#username {
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+img {
+  width: 1.5em;
+  border-radius: 50%;
+  margin: .1em;
+}
+img:hover {
+  transform: scale(1.1);
+}
+#icons {
+  margin: 1em auto;
+}
